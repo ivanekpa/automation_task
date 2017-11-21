@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Automation Task" max_length="40" name="x_tieoy_automation_task" sizeclass="17" type="collection">
+    <element extends="task" label="Automation Task" max_length="40" name="x_tieoy_automation_task" type="collection">
         <element label="Close parent" max_length="40" name="u_close_parent" type="boolean"/>
         <element label="Workflow" max_length="32" name="u_workflow" reference="wf_workflow" type="reference"/>
         <element label="Workflow variables" max_length="4000" name="u_workflow_variables" type="string"/>

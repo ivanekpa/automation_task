@@ -35,7 +35,14 @@
 	
 	// Execute the workflow
 	var w = new global.Workflow();
-	w.startFlow(current.u_workflow, current, current.operation(), null);
+
+	// Need to parse the u_workflow_variables field first
+	// it should contain JSON string, e.g. 
+	// {"u_input_text" : "some input text", "u_regular_expression" : "some", "u_flags" : "g" }	
+	var vars = JSON.parse(current.u_workflow_variables);
+	
+	// Start the workflow with all the context and variables
+	w.startFlow(current.u_workflow, current, current.operation(), vars);
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -45,7 +52,7 @@
         <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
         <sys_domain_path>!!!/</sys_domain_path>
         <sys_id>3958b8e94fae3e04fba400818110c753</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>ATASK Run Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
@@ -54,7 +61,7 @@
         <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
         <sys_update_name>sys_script_3958b8e94fae3e04fba400818110c753</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-05-22 09:30:10</sys_updated_on>
+        <sys_updated_on>2017-11-21 14:28:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
