@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="sys_app" relationship="NULL" sys_domain="global" view="Default view">ca589dd6db31c7801388f9c41d961930</list_id>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="sys_app" relationship="NULL" sys_domain="global" view="Default view">b7b3b568dbb6cb80107172e9bf9619c6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -15,6 +15,21 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
             <sys_updated_on>2017-10-16 08:16:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="sys_app" relationship="NULL" sys_domain="global" view="Default view">b7b3b568dbb6cb80107172e9bf9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 16:49:10</sys_created_on>
+            <sys_id>3bb3b568dbb6cb80107172e9bf9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 16:49:10</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -39,10 +54,10 @@
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_sys_metadata_sys_app_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
             <sys_updated_on>2017-10-16 09:10:39</sys_updated_on>
-            <sys_user display_value="Ivanek Admin Pavel">438988524f64a200fba400818110c7f6</sys_user>
+            <sys_user display_value="Ivanek Admin Pavel">42883ae2db36620062f27a0bbf9619cf</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

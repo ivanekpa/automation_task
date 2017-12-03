@@ -53,7 +53,7 @@
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-05-05 08:33:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>dfd93bf1db22cb401388f9c41d961997</sys_id>
+        <sys_id>d63e0a71db36438062f27a0bbf961964</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Workflow</sys_name>
         <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
         <sys_update_name>sys_dictionary_x_tieoy_automation_task_u_workflow</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-21 13:31:53</sys_updated_on>
+        <sys_updated_on>2017-12-03 15:57:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

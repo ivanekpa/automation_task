@@ -169,7 +169,7 @@
             <sys_id>7dd8342d4fae3e04fba400818110c741</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_tieoy_automation_task</sys_name>
-            <sys_overrides display_value="">a08754b4c611228701f7be7b66a6e8a5</sys_overrides>
+            <sys_overrides caption="NULL" display_value="" name="task" sys_domain="global" view="Default view">a08754b4c611228701f7be7b66a6e8a5</sys_overrides>
             <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
