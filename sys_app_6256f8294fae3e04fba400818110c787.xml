@@ -14,7 +14,7 @@
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_tieoy_automation</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description/>
+        <short_description>Automation task records represent in fact the automatione xecution and contains all the detailed information</short_description>
         <source>x_tieoy_automation</source>
         <store_correlation_id>REPOAPP0000028263</store_correlation_id>
         <store_url/>
@@ -23,12 +23,12 @@
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-05-05 08:28:02</sys_created_on>
         <sys_id>6256f8294fae3e04fba400818110c787</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-12-03 16:32:02</sys_updated_on>
+        <sys_updated_on>2018-02-04 09:49:42</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role/>
+        <user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.4</version>
