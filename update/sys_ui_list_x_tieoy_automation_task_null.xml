@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_tieoy_automation_task" version="2" view="">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_tieoy_automation_task" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
@@ -163,21 +163,21 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-10-16 09:12:51</sys_created_on>
+            <sys_created_on>2018-01-23 12:11:14</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
-            <sys_domain_path>!!!/</sys_domain_path>
-            <sys_id>de5529dedb35c7801388f9c41d96190e</sys_id>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64934496dbfbc74062f27a0bbf96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_tieoy_automation_task</sys_name>
-            <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
-            <sys_update_name>sys_ui_list_x_tieoy_automation_task_null_de5529dedb35c7801388f9c41d96190e</sys_update_name>
+            <sys_update_name/>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-10-16 09:12:51</sys_updated_on>
-            <sys_user/>
+            <sys_updated_on>2018-01-23 12:11:14</sys_updated_on>
+            <sys_user display_value="Ivanek Admin Pavel">42883ae2db36620062f27a0bbf9619cf</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

@@ -4,92 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a759240b37856200cc59d2b543990e5c</list_id>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin.xxzapotp</sys_created_by>
-            <sys_created_on>2016-08-09 13:36:50</sys_created_on>
-            <sys_id>ab59240b37856200cc59d2b543990e5c</sys_id>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>268d7e78db88d3c062f27a0bbf961900</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.xxzapotp</sys_updated_by>
-            <sys_updated_on>2016-08-09 13:36:50</sys_updated_on>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a759240b37856200cc59d2b543990e5c</list_id>
+            <element>active</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin.xxzapotp</sys_created_by>
-            <sys_created_on>2016-08-09 13:36:50</sys_created_on>
-            <sys_id>6f59240b37856200cc59d2b543990e5c</sys_id>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>a28d7e78db88d3c062f27a0bbf961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.xxzapotp</sys_updated_by>
-            <sys_updated_on>2016-08-09 13:36:50</sys_updated_on>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a759240b37856200cc59d2b543990e5c</list_id>
+            <element>activity_due</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin.xxzapotp</sys_created_by>
-            <sys_created_on>2016-08-09 13:36:50</sys_created_on>
-            <sys_id>2359240b37856200cc59d2b543990e5d</sys_id>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>268d7e78db88d3c062f27a0bbf961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.xxzapotp</sys_updated_by>
-            <sys_updated_on>2016-08-09 13:36:50</sys_updated_on>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a759240b37856200cc59d2b543990e5c</list_id>
+            <element>additional_assignee_list</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin.xxzapotp</sys_created_by>
-            <sys_created_on>2016-08-09 13:36:50</sys_created_on>
-            <sys_id>e359240b37856200cc59d2b543990e5d</sys_id>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>a68d7e78db88d3c062f27a0bbf961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.xxzapotp</sys_updated_by>
-            <sys_updated_on>2016-08-09 13:36:50</sys_updated_on>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a759240b37856200cc59d2b543990e5c</list_id>
+            <element>approval</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>admin.xxzapotp</sys_created_by>
-            <sys_created_on>2016-08-09 13:36:50</sys_created_on>
-            <sys_id>a759240b37856200cc59d2b543990e5d</sys_id>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>2a8d7e78db88d3c062f27a0bbf961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.xxzapotp</sys_updated_by>
-            <sys_updated_on>2016-08-09 13:36:50</sys_updated_on>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a759240b37856200cc59d2b543990e5c</list_id>
+            <element>approval_history</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>admin.xxzapotp</sys_created_by>
-            <sys_created_on>2016-08-09 13:36:50</sys_created_on>
-            <sys_id>6b59240b37856200cc59d2b543990e5d</sys_id>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>aa8d7e78db88d3c062f27a0bbf961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.xxzapotp</sys_updated_by>
-            <sys_updated_on>2016-08-09 13:36:50</sys_updated_on>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_set</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>2e8d7e78db88d3c062f27a0bbf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>ae8d7e78db88d3c062f27a0bbf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>228d7e78db88d3c062f27a0bbf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_duration</element>
+            <list_id display_value="x_tieoy_automation_task" element="NULL" name="x_tieoy_automation_task" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">228d3e78db88d3c062f27a0bbf9619fd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2018-01-31 20:08:33</sys_created_on>
+            <sys_id>a28d7e78db88d3c062f27a0bbf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2018-01-31 20:08:33</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

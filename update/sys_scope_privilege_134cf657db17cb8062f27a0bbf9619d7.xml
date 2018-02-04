@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-01-02 07:40:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>134cf657db17cb8062f27a0bbf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc_req_item</sys_name>
+        <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
+        <sys_update_name>sys_scope_privilege_134cf657db17cb8062f27a0bbf9619d7</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-01-02 07:40:51</sys_updated_on>
+        <target_name>sc_req_item</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>
