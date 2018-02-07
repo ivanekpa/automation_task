@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tieoy_automation.ATASKfunctions</api_name>
+        <client_callable>false</client_callable>
+        <description>This script include contains methods that are used in ATASK business rules</description>
+        <name>ATASKfunctions</name>
+        <script><![CDATA[var ATASKfunctions = Class.create();
+ATASKfunctions.prototype = {
+	
+	// General variables
+	AutomationCatalogSYSID: '481e3e18dbab4fc0107172e9bf9619d1',
+	ServiceCatalogSYSID: 'e0d08b13c3330100c8b837659bba8fb4',
+	
+    initialize: function() {
+    },
+   
+  /*_________________________________________________________________
+   * Description: server callable method "isCalledFromCatalog" that recognises if the ATASK was created from  "Automation on Demand" catalog
+   * Parameters:  ataskParent  -  the parrent SysID of the ATASK
+   * Returns:  true/false 
+   ________________________________________________________________*/
+    isCalledFromCatalog: function(ataskParent){
+	var autCatalog = this.AutomationCatalogSYSID; 
+	var table = this._getTable(gr.parent);
+	var rtimID = {};
+	if (table == 'sc_req_item') {
+		  rtimID = ataskParent.cat_item;
+		   }
+		  else if (table == 'sc_task') {
+		  rtimID = ataskParent.request_item.cat_item;
+		   } else {return false;}
+	
+	if ( rtimID.sc_catalogs.indexOf(autCatalog ) != -1) {
+	return true;}
+	else {
+	return false;}
+	},
+
+	/*_________________________________________________________________
+   * Description: server callable method "_getTable"  finds the table name in the task record
+   * Parameters:  ItD  - SysID of the task from which te Catalog Item was called
+   * Returns:  grr.sys_class_name - Task type table name
+   ________________________________________________________________*/
+	_getTable: function(ItD) {
+		var grr = new GlideRecord('task');
+		grr.addQuery("sys_id", ItD);
+		grr.query();
+		if (grr.next()) { return grr.sys_class_name;}
+		},
+    type: 'ATASKfunctions'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.xxernyeo</sys_created_by>
+        <sys_created_on>2018-02-05 09:12:19</sys_created_on>
+        <sys_id>4e851edadb48530462f27a0bbf961920</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ATASKfunctions</sys_name>
+        <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
+        <sys_update_name>sys_script_include_4e851edadb48530462f27a0bbf961920</sys_update_name>
+        <sys_updated_by>admin.xxernyeo</sys_updated_by>
+        <sys_updated_on>2018-02-05 10:25:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

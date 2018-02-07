@@ -46,19 +46,17 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>75</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-05-05 08:31:23</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>acb0b001db8b8fc062f27a0bbf961989</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_tieoy_automation_task</sys_name>
         <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
         <sys_update_name>sys_dictionary_x_tieoy_automation_task_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>

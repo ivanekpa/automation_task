@@ -39,57 +39,52 @@
 	// Update parent task with information about finished processing
 	var gr = current.parent.getRefRecord();
 	gr.work_notes = "Processing of Automation Task has SUCCEEDED";
-	gr.update();
+		
+	// Check that Close notes are available. If not, use standard message.
+	if (!current.close_notes) {
+		current.close_notes = 'Closed automaticly.';
+	}
 	
-	// Close the parent task
+	// Update Close notes of the parent task
 	gr.close_notes = current.close_notes;
+	
 	switch(gr.sys_class_name.toString()) {
 		case "incident_task":
-			gs.error("Parent task type:" + gr.sys_class_name);
 			gr.state = '3'; //Closed complete
 			break;
 		case "incident":
-			gs.error("Parent task type:" + gr.sys_class_name);
 			gr.close_code = 'Solved (Permanently)';
 			gr.state = '6'; //Resolved
 			break;
 		case 'em_remediation_task':
-			gs.error("Parent task type:" + gr.sys_class_name);
-			gr.close_notes = 'Closed by automation task '+ current.number ;
 			gr.state = '8'; //Closed
 			break;
 		case 'sc_req_item':	
-			gs.error("Parent task type:" + gr.sys_class_name);
 			gr.state = '3'; //Closed complete
 			break;
 		case "sc_task":
-			gs.error("Parent task type:" + gr.sys_class_name);
 			gr.state = '3'; //Closed complete
 			break;
 		case 'change_request':
-			gs.error("Parent task type:" + gr.sys_class_name);
 			gr.close_code = 'Successful ';
-			gr.close_notes = 'Closed by automation task '+ current.number + "\nTask Close Notes: " + current.close_notes ;
 			gr.work_start = current.sys_created_on;
 			gr.state = '3'; //Closed
 			break;
 		case 'change_task':
-			gs.error("Parent task type:" + gr.sys_class_name);
 			gr.u_close_code = 'Successful ';
-			gr.close_notes = 'Closed by automation task '+ current.number + "\nTask Close Notes: " + current.close_notes;
 			gr.state = '3'; //Closed complete
 			break;
 		case 'problem_task':
-			gs.error("Parent task type:" + gr.sys_class_name);
-			gr.close_notes = 'Closed by automation task '+ current.number ;
-			gr.state = '3'; //Closed complete
+			// according to the INDA-10057 - the problem task will be handled manualy 
+			//gr.close_notes = 'Closed by automation task '+ current.number ;
+			//gr.state = '3'; //Closed complete
 			break;
 		case 'problem':
-			gs.error("Parent task type:" + gr.sys_class_name);
-			gr.u_close_code = '?? solution implemented';
-			gr.close_notes = 'Closed by automation task '+ current.number + "\nTask Close Notes: " + current.close_notes;			
-			gr.u_root_cause = 'Closed by automation task '+ current.number;
-			gr.state = '3'; //Closed complete
+			// according to the INDA-10057 - the problem will be handled manualy
+			//gr.u_close_code = '?? solution implemented';
+			//gr.close_notes = 'Closed by automation task '+ current.number + "\nTask Close Notes: " + current.close_notes;			
+			//gr.u_root_cause = 'Closed by automation task '+ current.number;
+			//gr.state = '3'; //Closed complete
 			break;
 		default:
 			gs.error("Parent task type: unknown");
@@ -101,20 +96,18 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-05-10 14:43:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
-        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>b2f2ff4b4fea7644fba400818110c7fe</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>ATASK State -&gt; Complete -&gt; Close Parent</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
         <sys_update_name>sys_script_b2f2ff4b4fea7644fba400818110c7fe</sys_update_name>
-        <sys_updated_by>admin.xxernyeo</sys_updated_by>
-        <sys_updated_on>2018-02-01 12:33:23</sys_updated_on>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2018-02-07 12:17:31</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
