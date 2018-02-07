@@ -16,16 +16,17 @@
         <sys_class_name>sys_embedded_help_content</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-12-03 17:35:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>539462f1dbb6438062f27a0bbf961957</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>em_alert_rule-normal</sys_name>
         <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
         <sys_update_name>sys_embedded_help_content_539462f1dbb6438062f27a0bbf961957</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2018-02-01 17:38:12</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
-    <sys_translated_text action="delete_multiple" query="documentkey=539462f1dbb6438062f27a0bbf961957"/>
 </record_update>

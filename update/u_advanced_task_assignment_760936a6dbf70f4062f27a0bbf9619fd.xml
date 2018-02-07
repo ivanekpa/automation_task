@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="u_advanced_task_assignment">
+    <u_advanced_task_assignment action="INSERT_OR_UPDATE">
+        <sys_class_name>u_advanced_task_assignment</sys_class_name>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2018-01-24 20:07:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>760936a6dbf70f4062f27a0bbf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monitoring Status Check</sys_name>
+        <sys_package display_value="Automation Task" source="x_tieoy_automation">6256f8294fae3e04fba400818110c787</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Automation Task">6256f8294fae3e04fba400818110c787</sys_scope>
+        <sys_update_name>u_advanced_task_assignment_760936a6dbf70f4062f27a0bbf9619fd</sys_update_name>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2018-01-24 20:07:33</sys_updated_on>
+        <u_active>true</u_active>
+        <u_advanced_order_config display_value="">16d8fe66dbf70f4062f27a0bbf9619ce</u_advanced_order_config>
+        <u_assignment_script><![CDATA[// available is 'current' RITM GlideRecord Object 
+// to set Assignment group fill variable 'assignmentGroup' with sys_id of group record 
+// to set Assignment group fill variable 'assignmentUser' with sys_id of user record
+// ie. assignmentGroup = current.assignment_group;]]></u_assignment_script>
+        <u_company display_value="TIETO CORPORATION">c94993314a362312005cfc20c1aa15d2</u_company>
+        <u_condition/>
+        <u_description>Run diagnostic script for monitoring status check a provide the result.</u_description>
+        <u_enable_automatic_delivery>true</u_enable_automatic_delivery>
+        <u_expected_delivery_time>30 mins</u_expected_delivery_time>
+        <u_group/>
+        <u_item/>
+        <u_name>Monitoring Status Check</u_name>
+        <u_number>AO0000023276</u_number>
+        <u_orchestration_workflow display_value="">76f675e6db6a03001388f9c41d9619fc</u_orchestration_workflow>
+        <u_order>0</u_order>
+        <u_schedule/>
+        <u_service_offering display_value="FSO Tieto IT automation">2025bb434f19be04e6b642818110c77b</u_service_offering>
+        <u_short_description>Run Monitoring Status Check script</u_short_description>
+        <u_skills/>
+        <u_standard_change_template/>
+        <u_task_type>catalog_task</u_task_type>
+        <u_template/>
+        <u_type>direct</u_type>
+        <u_user/>
+        <u_workflow/>
+        <u_workflow_variables>{&#13;
+  "u_workflow_inputs" : "DYNWFCONF0001001"&#13;
+} </u_workflow_variables>
+    </u_advanced_task_assignment>
+</record_update>
